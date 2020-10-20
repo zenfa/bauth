@@ -33,7 +33,7 @@ Access tokens must be kept confidential in transit and in storage. Because anyon
 # Solution - Blockchain Auth (BAuth)
 Blockchain is ideal to provide identity service, thanks to public key cryptography and digital signature technology in blockchain.
 
-Users can create Access Token with all necessary information(e.g. Client information, Scope, and Expiration Time) by themselves, and hand it over to clients. After that, clients can build requests and send to Cosmos network, attaching the Access Token. Cosmos application can verify the signature in the Access Token, and take actions only defined in it. 
+Users can create Access Token with all necessary information(e.g. Client information, Scope, and Expiration Time) by themselves, and hand it over to clients. After that, clients can build requests and send to Blockchain network, attaching the Access Token. Dapp can verify the signature in the Access Token, and take actions only specified in it. 
 
      +---------------------------------------------+  
      |                                             |  
